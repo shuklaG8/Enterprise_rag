@@ -10,7 +10,7 @@ llm = ChatGroq(
     temperature=0.1
 )
 
-def generate_node(state: AgentState):
+def planner_node(state: AgentState):
     """
     The Planner determines if a search is needed based on the ENTIRE conversation.
     """
